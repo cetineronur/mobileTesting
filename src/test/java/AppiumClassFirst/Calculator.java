@@ -17,15 +17,15 @@ public class Calculator {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"Pixel_2");
-        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"8.0");
+        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"17.0");
         desiredCapabilities.setCapability("appPackage","com.android.calculator2");
         desiredCapabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
        // desiredCapabilities.setCapability(MobileCapabilityType.APP,"C:\\Users\\Onur\\Downloads\\appiumNew-master\\appiumNew-master\\src\\test\\java\\AppiumClassFirst\\APP\\Duolingo.apk");
     // ! Yukarıdaki path i kendinize göre ayarlayınız.
 
+        AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http:127.0.0.1:4723/wd/hub"), desiredCapabilities);
 
-    AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http:127.0.0.1:4723/wd/hub"), desiredCapabilities);
-        WebElement sieben = driver.findElementById("com.android.calculator2:id/digit_7");
+         WebElement sieben = driver.findElementById("com.android.calculator2:id/digit_7");
         sieben.click();
         Thread.sleep(3000);
 

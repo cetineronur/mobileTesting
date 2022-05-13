@@ -19,7 +19,7 @@ public class Workshop_1 {
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_2");
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, "C:\\Users\\Onur\\Downloads\\appiumNew-master\\appiumNew-master\\src\\test\\java\\AppiumClassFirst\\APP\\Duolingo.apk");
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, "D:\\mobileTesting\\appiumNew-master\\src\\test\\java\\AppiumClassFirst\\APP\\apidemos.apk");
         // ! Yukarıdaki path i kendinize göre ayarlayınız.
 
 
