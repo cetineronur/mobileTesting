@@ -31,8 +31,5 @@ public class BrowserStackGunceDemos {
         AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub"), capabilities);
 
         driver.quit();
-
     }
-
-
 }

@@ -16,8 +16,8 @@ public class Calculator {
     public void test() throws MalformedURLException, InterruptedException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
-        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"Pixel_2");
-        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"17.0");
+        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"adb");
+        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"8.0");
         desiredCapabilities.setCapability("appPackage","com.android.calculator2");
         desiredCapabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
        // desiredCapabilities.setCapability(MobileCapabilityType.APP,"C:\\Users\\Onur\\Downloads\\appiumNew-master\\appiumNew-master\\src\\test\\java\\AppiumClassFirst\\APP\\Duolingo.apk");
