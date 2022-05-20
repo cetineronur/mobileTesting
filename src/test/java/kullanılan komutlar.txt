@@ -10,3 +10,5 @@ Ayarlar->Sistem->Telefon Hakkinda->Gelistirici Secenekleri->OEM Kilidini Acm
   "automationName": "UiAutomator2",
   "app": "C:\\Users\\User\\eclipse-workspace\\AppiumAutomation\\etsy.apk"
 }
+C:\Users\Onur\AppData\Local\Android\Sdk\tools\bin\uiautomatorviewer.bat   buradan da locate alabiliriz. android emulatorden direk buraya yansitabiliriz
+
